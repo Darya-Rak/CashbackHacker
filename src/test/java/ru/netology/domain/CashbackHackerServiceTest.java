@@ -1,8 +1,9 @@
 package ru.netology.domain;
 
+
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class CashbackHackerServiceTest {
     CashbackHackerService service = new CashbackHackerService();
